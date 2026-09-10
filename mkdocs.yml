@@ -61,7 +61,7 @@ markdown_extensions:
       permalink: true
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/itpark-v3.css
 
 nav:
   - Маршрут: index.md
