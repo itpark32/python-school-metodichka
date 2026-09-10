@@ -1,0 +1,128 @@
+site_name: Python для школьников
+site_description: Школьная программа 8–11 классов, Python, программирование для ОГЭ и ЕГЭ
+site_url: https://itpark32.github.io/python-school-metodichka/
+repo_name: itpark32/python-school-metodichka
+repo_url: https://github.com/itpark32/python-school-metodichka
+
+theme:
+  name: material
+  language: ru
+  font: false
+  icon:
+    logo: material/language-python
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Включить тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Включить светлую тему
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.select
+    - toc.follow
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Маршрут: index.md
+  - 1. Основы Python:
+      - Ввод, вывод и переменные: basics/input-output-variables.md
+      - Типы данных и арифметика: basics/types-arithmetic.md
+      - //, % и работа с цифрами: basics/div-mod-digits.md
+      - Логические выражения: basics/logic.md
+      - Условия: basics/conditions.md
+      - Ошибки и отладка: basics/debugging.md
+  - 2. Циклы и алгоритмы:
+      - Цикл while: loops/while.md
+      - for и range: loops/for-range.md
+      - Вложенные циклы: loops/nested-loops.md
+      - Счётчик, сумма, минимум и максимум: loops/accumulators.md
+      - Обработка последовательностей: loops/sequences.md
+      - Трассировка программ: loops/tracing.md
+  - 3. Строки:
+      - Строки, индексы и перебор: strings/basics.md
+      - Методы строк и срезы: strings/methods-slices.md
+      - Алгоритмы обработки строк: strings/algorithms.md
+  - 4. Списки и массивы:
+      - Списки и индексы: lists/basics.md
+      - Перебор и обработка списка: lists/processing.md
+      - Линейный поиск: lists/linear-search.md
+      - Соседние элементы, пары и тройки: lists/neighbours.md
+      - Двумерные списки: lists/2d-lists.md
+  - 5. Другие коллекции:
+      - Кортежи и множества: collections/tuples-sets.md
+      - Словари и частоты: collections/dicts-frequency.md
+  - 6. Функции:
+      - Функции, параметры и return: functions/basics.md
+      - Область видимости и декомпозиция: functions/scope-decomposition.md
+  - 7. Рекурсия:
+      - Основы рекурсии: recursion/basics.md
+      - Рекурсивные вычисления и трассировка: recursion/calculations.md
+  - 8. Файлы:
+      - Чтение и запись файлов: files/basics.md
+      - Числовые данные из файлов: files/numbers.md
+      - Текстовые файлы: files/text.md
+  - 9. Поиск и сортировка:
+      - Линейный и бинарный поиск: algorithms/search.md
+      - Простые алгоритмы сортировки: algorithms/simple-sorts.md
+      - sort и sorted: algorithms/python-sort.md
+  - 10. Алгоритмы с числами:
+      - Делимость и делители: numbers/divisibility-divisors.md
+      - Простые числа, НОД и разложение: numbers/primes-gcd.md
+      - Системы счисления через Python: numbers/bases.md
+  - 11. Полный перебор:
+      - Метод полного перебора: brute-force/basics.md
+  - 12. Сложность алгоритмов:
+      - Как оценивать эффективность: complexity/basics.md
+  - 13. Графы:
+      - Графы и их хранение: graphs/basics.md
+      - Пути и алгоритмы на графах: graphs/paths.md
+  - 14. Практический Python:
+      - Модули и несколько файлов: python-plus/modules.md
+      - Исключения: python-plus/exceptions.md
+      - Классы и объекты: python-plus/classes.md
+      - Dataclass: python-plus/dataclass.md
+  - 15. Подготовка к экзаменам:
+      - Программирование для ОГЭ: exams/oge.md
+      - Программирование для ЕГЭ: exams/ege.md
+      - Навигатор ОГЭ / ЕГЭ: exams/navigator.md
