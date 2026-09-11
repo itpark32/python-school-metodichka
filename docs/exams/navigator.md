@@ -68,10 +68,10 @@
 ## Где брать задания
 
 <div class="topic-grid">
-  <div class="topic-card"><strong>ФИПИ</strong>Официальные демоверсии, спецификации и открытые банки.</div>
-  <div class="topic-card"><strong>РЕШУ ОГЭ / ЕГЭ</strong>Большие подборки однотипных задач.</div>
-  <div class="topic-card"><strong>К. Ю. Поляков и КЕГЭ</strong>Системная теория и компьютерные варианты.</div>
-  <div class="topic-card"><strong>Informatics / SilverTests</strong>Дополнительная алгоритмическая практика.</div>
+  <a class="topic-card" href="https://fipi.ru/" target="_blank" rel="noopener"><strong>ФИПИ</strong><span>Официальные демоверсии, спецификации и открытые банки.</span><span class="topic-card__action">Открыть ФИПИ <span aria-hidden="true">→</span></span></a>
+  <a class="topic-card" href="https://inf-ege.sdamgia.ru/" target="_blank" rel="noopener"><strong>РЕШУ ОГЭ / ЕГЭ</strong><span>Большие подборки однотипных задач.</span><span class="topic-card__action">Открыть задания <span aria-hidden="true">→</span></span></a>
+  <a class="topic-card" href="https://kpolyakov.spb.ru/school/ege.htm" target="_blank" rel="noopener"><strong>К. Ю. Поляков и КЕГЭ</strong><span>Системная теория и компьютерные варианты.</span><span class="topic-card__action">Открыть материалы <span aria-hidden="true">→</span></span></a>
+  <a class="topic-card" href="https://informatics.msk.ru/" target="_blank" rel="noopener"><strong>Informatics / SilverTests</strong><span>Дополнительная алгоритмическая практика.</span><span class="topic-card__action">Перейти к практике <span aria-hidden="true">→</span></span></a>
 </div>
 
 [ФИПИ: ОГЭ](https://fipi.ru/oge/demoversii-specifikacii-kodifikatory) · [ФИПИ: ЕГЭ](https://fipi.ru/ege/demoversii-specifikacii-kodifikatory) · [открытый банк ОГЭ](https://fipi.ru/oge/otkrytyy-bank-zadaniy-oge) · [открытый банк ЕГЭ](https://fipi.ru/ege/otkrytyy-bank-zadaniy-ege)
