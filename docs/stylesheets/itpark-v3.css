@@ -62,14 +62,15 @@
   --card-border: var(--color-border);
   --card-radius: var(--itpark-radius);
   --card-shadow: var(--itpark-shadow);
-  --topic-primary-bg: #202940;
-  --topic-primary-fg: #f4f7ff;
-  --topic-algorithms-bg: #25314c;
-  --topic-thinking-bg: #202940;
-  --topic-exams-bg: #293654;
-  --topic-card-fg: #f4f7ff;
-  --topic-card-muted: #c7d0e4;
-  --topic-card-border: #3f4b68;
+  --topic-primary-bg: #e7efff;
+  --topic-primary-fg: #18243d;
+  --topic-algorithms-bg: #eef3fc;
+  --topic-thinking-bg: #f5f7fc;
+  --topic-exams-bg: #e9eef9;
+  --topic-card-fg: #202940;
+  --topic-card-muted: #56627a;
+  --topic-card-border: #b9c8e5;
+  --topic-card-action: #245fc7;
   --button-bg: var(--color-link);
   --button-bg-hover: var(--color-link-hover);
   --button-fg: var(--color-on-primary);
@@ -153,6 +154,7 @@
   --topic-card-fg: #f4f7ff;
   --topic-card-muted: #c7d0e4;
   --topic-card-border: #465475;
+  --topic-card-action: #a9c7ff;
   --itpark-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 18%);
   --itpark-shadow-hover: 0 0.75rem 2rem rgb(0 0 0 / 28%);
   --md-primary-fg-color: var(--itpark-dark);
@@ -303,7 +305,7 @@ body {
   gap: 0.4rem;
   margin-top: auto;
   padding-top: 1rem;
-  color: inherit;
+  color: var(--topic-card-action);
   font-size: 0.74rem;
   font-weight: 750;
 }
