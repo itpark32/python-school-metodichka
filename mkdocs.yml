@@ -1,7 +1,7 @@
 site_name: Python для школьников | Методичка от команды IT-ПАРКа
 site_description: "Онлайн-методичка IT-ПАРКа: Python для 8–11 классов, алгоритмы, школьная информатика, ОГЭ и ЕГЭ"
 site_url: https://itpark32.github.io/python-school-metodichka/
-repo_name: Задать вопрос
+repo_name: Задать вопрос по методичке
 repo_url: https://t.me/amsmyslov
 
 theme:

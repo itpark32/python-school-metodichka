@@ -347,6 +347,18 @@ body {
   text-decoration: none;
 }
 
+.itpark-links {
+  margin: 0.9rem 0 1.5rem;
+}
+.itpark-links p {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0;
+}
+.itpark-links .md-button { margin: 0; }
+
 .topic-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.4rem; padding-top: 1.25rem; border-top: 1px solid var(--color-border); }
 .topic-nav a {
   display: inline-flex;
