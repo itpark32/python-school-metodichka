@@ -1,16 +1,17 @@
-site_name: Python для школьников
-site_description: Школьная программа 8–11 классов, Python, программирование для ОГЭ и ЕГЭ
+site_name: Python для школьников | Методичка от команды IT-ПАРКа
+site_description: "Онлайн-методичка IT-ПАРКа: Python для 8–11 классов, алгоритмы, школьная информатика, ОГЭ и ЕГЭ"
 site_url: https://itpark32.github.io/python-school-metodichka/
-repo_name: itpark32/python-school-metodichka
-repo_url: https://github.com/itpark32/python-school-metodichka
+repo_name: Задать вопрос
+repo_url: https://t.me/amsmyslov
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   font: false
   icon:
     logo: material/language-python
-    repo: fontawesome/brands/github
+    repo: material/chat-question-outline
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

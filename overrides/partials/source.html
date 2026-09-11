@@ -1,0 +1,17 @@
+<a
+  href="{{ config.repo_url }}"
+  title="Задать вопрос команде IT-ПАРКа"
+  aria-label="Задать вопрос команде IT-ПАРКа в Telegram"
+  class="md-source"
+  data-md-component="source"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "material/chat-question-outline" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    {{ config.repo_name }}
+  </div>
+</a>
