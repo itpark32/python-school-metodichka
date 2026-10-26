@@ -123,7 +123,3 @@ nav:
       - Исключения: python-plus/exceptions.md
       - Классы и объекты: python-plus/classes.md
       - Dataclass: python-plus/dataclass.md
-  - 15. Подготовка к экзаменам:
-      - Программирование для ОГЭ: exams/oge.md
-      - Программирование для ЕГЭ: exams/ege.md
-      - Навигатор ОГЭ / ЕГЭ: exams/navigator.md
